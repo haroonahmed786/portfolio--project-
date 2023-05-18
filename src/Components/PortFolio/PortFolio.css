@@ -1,0 +1,49 @@
+.Maindiv{
+    flex-basis: 100%;
+    background-color: #e7e7e7
+}
+.Navbar{
+    display: flex;
+    flex-basis: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+   
+}
+.button{
+    display: flex;
+}
+.btn{
+    background-color: #e7e7e7; 
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.Contact{
+    display:flex;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+}
+.Name{
+    flex-basis: 40%;
+    border: 1px solid black;
+    height: 200px;
+    font-size: 50px;
+    margin-top: 50px;
+    color: darkcyan;
+    font-weight: bold;
+}
+.para{
+    font-size:13px ;
+    font-weight: none;
+    color: black;
+}
+.Picture{
+    display: flex;
+    flex-basis: 38%;
+    border: 1px solid black;
+}
