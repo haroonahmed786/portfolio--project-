@@ -1,11 +1,11 @@
 .Maindiv{
-    flex-basis: 100%;
+    display: grid;
     background-color: #e7e7e7
 }
 .Navbar{
     display: flex;
     flex-basis: 100%;
-    margin-top: 10px;
+    margin-top: 17px;
     margin-left: 50px;
    
 }
@@ -22,28 +22,338 @@
     display: inline-block;
     font-size: 13px;
     margin-left: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }
+.btn:hover{
+    box-shadow: 1px 1px 1px 1px black;
+}
+
 .Contact{
     display:flex;
-    flex-basis: 100%;
     justify-content: space-evenly;
+    gap: 4rem ;
+    margin-bottom: 50px;
 }
 .Name{
+    display: flex;
+    display: block;
     flex-basis: 40%;
-    border: 1px solid black;
+    border: 1px solid #e7e7e7;
     height: 200px;
-    font-size: 50px;
-    margin-top: 50px;
-    color: darkcyan;
+    font-size: 25px;
+    margin-top: 10px;
+    display: block;
+    color:  rgb(54,91,109);
     font-weight: bold;
 }
 .para{
-    font-size:13px ;
-    font-weight: none;
-    color: black;
-}
-.Picture{
     display: flex;
-    flex-basis: 38%;
-    border: 1px solid black;
+    font-size:13px ;
+    color: black;
+    margin-top: -15px;
+    text-decoration: none;
+}
+.cont-butn{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    padding: 20px 40px;
+}
+.btn1{
+    background-color:  rgb(54,91,109);
+    height: 38px; 
+    width: 100px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;  
+    border-radius: 5px;
+}
+.btn1:hover{
+    box-shadow: 1px 2px 2px 2px black;
+}
+.btn2{
+    height: 38px;
+    width: 80px;
+    border:1px solid  rgb(54,91,109);
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color:  rgb(54,91,109);
+    box-shadow: 1px 2px 2px 2px black;
+}
+
+.picture{
+    display: flex;
+    flex-direction: column;
+}
+.item-one{
+    background-color:rgb(54,91,109) ;
+    height: 215px;
+    width: 220px;
+    margin-left: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+.item-one:hover{
+    transform: translate(-0.5rem, -0.5rem);
+  box-shadow: 2rem 2rem primary;
+ 
+}
+.item-two{
+    height: 200px;    
+    width: 205px;
+    transition: all .3s;
+  border-radius: (card-border-radius);
+  box-shadow: (1rem 1rem ) ;
+    
+}
+.item-two:hover{
+    transform: translate(0.5rem, 0.5rem);
+    box-shadow: 2rem 2rem primary;
+
+}
+.who{
+    
+    margin : 80px auto auto 100px ;
+    color: rgb(54,91,109);
+}
+.para1{
+    margin : 10px 110px auto 138px;
+}
+.para2{
+    margin : 10px 110px auto 138px;
+}
+.para3{
+    margin : 10px 110px auto 138px;
+}
+.container2{
+ 
+    background-color:#e7e7e7;
+    margin-top: 80px;
+    height: 300px; 
+    border: 1px solid #e7e7e7;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.do{
+
+    margin : 50px auto auto 100px; 
+    color:rgb(54,91,109) ;
+}
+
+.box1{
+    border: 1px solid darkgrey;
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 7px; 
+    padding: 8px;
+}
+.box1:hover{
+    box-shadow: 1px 2px 8px 2px rgb(54,91,109);
+}
+.web{
+    margin: 9px auto auto 3px;
+}
+.project{
+    flex-basis: 100%;
+    background-color:rgb(54,91,109) ;
+    border: 3px solid rgb(54,91,109);
+ 
+}
+
+ 
+.box2{
+    border: 1px solid darkgrey;
+    background-color: white;
+    height: 150px;
+    width: 250px;
+    border-radius: 15px; 
+    padding: 8px;
+}
+.box2:hover{
+    box-shadow: 1px 2px 8px 2px black;
+}
+.pro{
+    margin : 80px auto auto 100px ;
+    color: white;
+    font-style: bold;
+}
+.boxes{
+   display: flex;
+   margin-top: 20px;
+   margin-bottom: 80px;
+   align-items: center;
+   justify-content:center;
+   gap: 30px;
+   cursor: pointer;
+    
+}
+.star{
+    margin: 13px auto auto 8px;
+    color:rgb(54,91,109);
+    text-decoration: rgb(54,91,109) ;
+}
+.go{ 
+    border: 3px solid white;
+}
+.touch{
+    margin : 60px auto auto 100px ;
+    color: rgb(54,91,109);
+    font-style: bold;
+}
+.para1{
+    color:rgb(54,91,109) ;
+}
+.para2{
+    color:rgb(54,91,109) ;
+}
+.para3{
+    color:rgb(54,91,109) ;
+}
+.buttons{
+    display: flex;
+  margin: 20px auto auto 137px ;
+}
+.button1{
+    margin-right: 10px;
+    height: 38px;
+    width: 80px;
+    background-color:  rgb(54,91,109);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;  border: 1px solid rgb(54,91,109);
+}
+.button1:hover{
+    box-shadow: 1px 2px 2px 2px black;
+}
+.button2{
+    height: 38px; 
+    width: 150px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;  
+    color: rgb(54,91,109);
+    border-radius: 5px;
+    border: 1px solid rgb(54,91,109);
+}
+.button2:hover{
+    background-color:rgb(54,91,109) ;
+    color:white;
+    box-shadow: 1px 2px 2px 2px black;
+}
+
+.footer{
+    margin-top: 30px;
+    background-color:#e7e7e7;
+    display: flex;
+    color: rgb(54,91,109) ;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 40px;
+}
+@media (max-width:662px) {
+    .Maindiv{
+        display: block;
+    }
+    .Navbar{
+        display: block;
+    
+    }
+    .button{
+        
+        width: 100%;
+       
+    }
+    .btn{
+        display: block;
+    }
+    .btn2{
+       display: block;
+    }
+    .Contact{
+        display: block;
+        width: 100%;
+        flex-direction: column;
+    }
+    .Name{
+        margin-left: 15px;
+    }
+    .picture{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+    }
+    .item-one{
+        display:block;
+       
+    }
+    .item-two{
+      display: block;
+    }
+    .container1{
+        width: auto;
+    }
+    .who{
+        
+        width: 100%;
+    }
+    .para1{
+        display: block;
+    }
+    .para2{
+       display: block
+    }
+    .para3{
+        display: block;
+    }
+    .container2{
+        display: block;
+        flex-direction: column;
+       align-items: center;
+    
+    }
+    .do{
+        display: block;
+        width: 100%;
+        align-items: center;
+    }
+    .box1{
+      width: auto;
+      
+    }
+    .project{
+        display: block;
+        width: 100%;
+    }
+    .pro{
+        display: block;
+        width: 100%;
+        
+    }
+    .boxes{
+        display: block;
+        margin-left: 69px;
+    }
+    .box2{
+        display: block;
+         margin-bottom: 10px;
+    }
+    .star{
+        width: 100%;
+    }
+    
 }
